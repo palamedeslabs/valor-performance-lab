@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function App() {
-  const [view, setView] = useState('home'); // 'home' or 'booking'
+  const [view, setView] = useState('home'); 
   const accent = '#C5A059';
   const bg = '#080808';
 
@@ -43,129 +43,96 @@ export default function App() {
             <div style={{ flex: '1 1 450px' }}>
               <div style={{ display: 'inline-flex', alignItems: 'center', gap: '12px', padding: '4px 12px', border: `1px solid rgba(197, 160, 89, 0.2)`, borderRadius: '2px', marginBottom: '32px' }}>
                 <div style={{ width: '6px', height: '6px', backgroundColor: accent, borderRadius: '50%' }}></div>
-                <span style={{ fontSize: '9px', color: accent, textTransform: 'uppercase', fontWeight: 'bold', letterSpacing: '2px' }}>TPI Level 3 Medical & Power Professional</span>
+                <span style={{ fontSize: '9px', color: accent, textTransform: 'uppercase', fontWeight: 'bold', letterSpacing: '2px' }}>TPI CERTIFIED // NASM PERFORMANCE SPECIALIST</span>
               </div>
               <h2 style={{ fontSize: 'clamp(3.5rem, 10vw, 8.5rem)', fontWeight: '900', textTransform: 'uppercase', margin: '0 0 32px 0', lineHeight: '0.8', letterSpacing: '-5px' }}>
-                Force <br /> <span style={{ color: accent }}>Mastered.</span>
+                Force <br /> <span style={{ color: accent }}>Refined.</span>
               </h2>
               <p style={{ color: '#888', fontSize: '18px', maxWidth: '480px', lineHeight: '1.6', fontWeight: '400', marginBottom: '40px' }}>
-                Bridging the gap between clinical science and raw power. We utilize advanced biomechanical data to engineer a swing that is faster, more efficient, and pain-free.
+                Alex Peckham merges NASM-CES Corrective Exercise and PES Performance Enhancement to engineer swings that are faster, more efficient, and built for a lifetime on the course.
               </p>
               <div style={{ display: 'flex', gap: '40px' }}>
                   <div>
-                      <div style={{ fontSize: '28px', fontWeight: '800', color: accent }}>+15MPH</div>
-                      <div style={{ fontSize: '10px', color: '#444', textTransform: 'uppercase', letterSpacing: '2px' }}>Avg. Speed Gain</div>
+                      <div style={{ fontSize: '28px', fontWeight: '800', color: accent }}>50k+</div>
+                      <div style={{ fontSize: '10px', color: '#444', textTransform: 'uppercase', letterSpacing: '2px' }}>Client Hours</div>
                   </div>
                   <div>
-                      <div style={{ fontSize: '28px', fontWeight: '800', color: accent }}>100%</div>
-                      <div style={{ fontSize: '10px', color: '#444', textTransform: 'uppercase', letterSpacing: '2px' }}>Data Driven</div>
+                      <div style={{ fontSize: '28px', fontWeight: '800', color: accent }}>MASTER</div>
+                      <div style={{ fontSize: '10px', color: '#444', textTransform: 'uppercase', letterSpacing: '2px' }}>Level Coach</div>
                   </div>
               </div>
             </div>
             <div style={{ flex: '1 1 400px', position: 'relative' }}>
               <img 
                 src="https://images.unsplash.com/photo-1593111774240-d529f12cf4bb?q=80&w=2076&auto=format&fit=crop" 
-                alt="Golf Athlete" 
+                alt="Golf Performance" 
                 style={{ width: '100%', height: '600px', objectFit: 'cover', border: '1px solid rgba(255,255,255,0.1)', filter: 'grayscale(1) brightness(0.7)' }}
               />
-              <div style={{ position: 'absolute', bottom: '20px', right: '20px', backgroundColor: bg, border: `1px solid ${accent}`, padding: '20px', maxWidth: '200px' }}>
-                  <p style={{ color: accent, fontSize: '10px', margin: 0, letterSpacing: '1px', lineHeight: '1.4' }}>"The body dictates the swing. We solve the limitations."</p>
-              </div>
             </div>
           </section>
 
           {/* TRUST BAR */}
           <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', gap: '60px', padding: '40px 0', borderTop: '1px solid rgba(255,255,255,0.05)', borderBottom: '1px solid rgba(255,255,255,0.05)', opacity: 0.4 }}>
-              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>TPI MEDICAL 3</span>
-              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>TPI POWER 3</span>
-              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>FRCMS</span>
-              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>TRACKMAN</span>
+              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>NASM-PES</span>
+              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>NASM-CES</span>
+              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>TPI CERTIFIED</span>
+              <span style={{ fontSize: '12px', fontWeight: 'bold', letterSpacing: '4px' }}>PGA TOUR</span>
           </div>
 
-          {/* THE METHODOLOGY SECTION */}
-          <section style={{ padding: '140px 0' }}>
-              <h3 style={{ color: accent, fontSize: '11px', textTransform: 'uppercase', letterSpacing: '6px', marginBottom: '24px', textAlign: 'center' }}>The Valor Protocol</h3>
-              <h2 style={{ fontSize: 'clamp(2.5rem, 5vw, 4.5rem)', fontWeight: '900', textTransform: 'uppercase', letterSpacing: '-2px', marginBottom: '80px', textAlign: 'center' }}>Engineering The Elite Athlete.</h2>
-              
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '32px' }}>
-                <div style={{ flex: '1 1 300px', padding: '48px', border: '1px solid rgba(255,255,255,0.05)', backgroundColor: 'rgba(255,255,255,0.01)' }}>
-                  <div style={{ color: accent, fontSize: '11px', marginBottom: '32px', fontFamily: 'monospace' }}>PHASE_01</div>
-                  <h4 style={{ fontSize: '24px', textTransform: 'uppercase', margin: '0 0 20px 0', fontWeight: '800' }}>Biomechanical Audit</h4>
-                  <p style={{ color: '#666', fontSize: '15px', lineHeight: '1.7' }}>
-                      Identify the power leaks—stability, mobility, or motor control—that are dictating your swing flaws.
-                  </p>
-                </div>
-                <div style={{ flex: '1 1 300px', padding: '48px', border: '1px solid rgba(255,255,255,0.05)', backgroundColor: 'rgba(255,255,255,0.01)' }}>
-                  <div style={{ color: accent, fontSize: '11px', marginBottom: '32px', fontFamily: 'monospace' }}>PHASE_02</div>
-                  <h4 style={{ fontSize: '24px', textTransform: 'uppercase', margin: '0 0 20px 0', fontWeight: '800' }}>Power Optimization</h4>
-                  <p style={{ color: '#666', fontSize: '15px', lineHeight: '1.7' }}>
-                      Engineering your body to transfer power from the ground up for effortless distance and speed.
-                  </p>
-                </div>
-                <div style={{ flex: '1 1 300px', padding: '48px', border: '1px solid rgba(255,255,255,0.05)', backgroundColor: 'rgba(255,255,255,0.01)' }}>
-                  <div style={{ color: accent, fontSize: '11px', marginBottom: '32px', fontFamily: 'monospace' }}>PHASE_03</div>
-                  <h4 style={{ fontSize: '24px', textTransform: 'uppercase', margin: '0 0 20px 0', fontWeight: '800' }}>Athletic Resiliency</h4>
-                  <p style={{ color: '#666', fontSize: '15px', lineHeight: '1.7' }}>
-                      Golf longevity built through specialized recovery. Eliminate chronic pain and move better.
-                  </p>
-                </div>
-              </div>
-          </section>
-
-          {/* THE FOUNDER SECTION */}
-          <section style={{ padding: '100px 0', borderTop: '1px solid rgba(255,255,255,0.05)' }}>
+          {/* THE EXPERT SECTION */}
+          <section style={{ padding: '140px 0', borderBottom: '1px solid rgba(255,255,255,0.05)' }}>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '80px', alignItems: 'center' }}>
                   <div style={{ flex: '1 1 300px' }}>
-                      <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop" alt="The Expert" style={{ width: '100%', height: '500px', objectFit: 'cover', filter: 'grayscale(1)' }} />
+                      <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop" alt="Alex Peckham" style={{ width: '100%', height: '550px', objectFit: 'cover', filter: 'grayscale(1)' }} />
                   </div>
                   <div style={{ flex: '1 1 400px' }}>
-                      <h3 style={{ color: accent, fontSize: '11px', textTransform: 'uppercase', letterSpacing: '4px', marginBottom: '20px' }}>The Expert</h3>
-                      <h2 style={{ fontSize: '3rem', fontWeight: '900', textTransform: 'uppercase', marginBottom: '32px' }}>Michael [Last Name]</h2>
-                      <p style={{ color: '#888', lineHeight: '1.8', fontSize: '16px', marginBottom: '24px' }}>
-                          As a TPI Level 3 Medical and Power professional, Michael specializes in identifying the exact physical constraints that lead to swing inefficiencies and injury.
+                      <h3 style={{ color: accent, fontSize: '11px', textTransform: 'uppercase', letterSpacing: '4px', marginBottom: '20px' }}>The Authority</h3>
+                      <h2 style={{ fontSize: '3.5rem', fontWeight: '900', textTransform: 'uppercase', marginBottom: '32px', letterSpacing: '-2px' }}>Alex Peckham</h2>
+                      <p style={{ color: '#888', lineHeight: '1.8', fontSize: '17px', marginBottom: '24px' }}>
+                          With over 15 years and 50,000+ hours of on-floor experience, Alex Peckham has become the go-to performance architect for golfers who demand a clinical edge. 
                       </p>
-                      <button 
-                        onClick={() => setView('booking')}
-                        style={{ backgroundColor: 'transparent', color: accent, border: `1px solid ${accent}`, padding: '12px 32px', fontSize: '11px', fontWeight: 'bold', textTransform: 'uppercase', cursor: 'pointer', letterSpacing: '2px' }}>
-                        Work With Michael
-                      </button>
+                      <p style={{ color: '#888', lineHeight: '1.8', fontSize: '17px', marginBottom: '24px' }}>
+                          As a dual-certified **NASM Corrective Exercise (CES)** and **Performance Enhancement (PES)** specialist, Alex understands that maximizing swing speed requires a foundation of perfect movement. He has successfully utilized this hybrid methodology to train PGA Tour, Korn Ferry Tour, and elite NCAA D1 athletes.
+                      </p>
+                      <p style={{ color: '#888', lineHeight: '1.8', fontSize: '17px', marginBottom: '40px' }}>
+                        Based at **Crull Fitness in Richardson, TX**, his approach is simple: Identify physical limitations through TPI screening, correct them through clinical programming, and enhance them through tour-level power protocols.
+                      </p>
+                      <div style={{ display: 'flex', gap: '24px' }}>
+                          <div style={{ width: '50px', height: '1px', backgroundColor: accent, marginTop: '12px' }}></div>
+                          <span style={{ fontSize: '12px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '2px' }}>Performance Architect</span>
+                      </div>
                   </div>
               </div>
           </section>
 
         </main>
       ) : (
-        /* INTAKE FORM VIEW */
+        /* INTAKE FORM */
         <main style={{ maxWidth: '800px', margin: '0 auto', padding: '100px 24px' }}>
           <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <h3 style={{ color: accent, fontSize: '11px', textTransform: 'uppercase', letterSpacing: '6px', marginBottom: '24px' }}>Request Access</h3>
-            <h2 style={{ fontSize: '3rem', fontWeight: '900', textTransform: 'uppercase', letterSpacing: '-2px' }}>The Diagnostic Intake</h2>
-            <p style={{ color: '#666', marginTop: '20px' }}>Complete your profile. Michael will review your data before scheduling your assessment.</p>
+            <h3 style={{ color: accent, fontSize: '11px', textTransform: 'uppercase', letterSpacing: '6px', marginBottom: '24px' }}>Request Assessment</h3>
+            <h2 style={{ fontSize: '3rem', fontWeight: '900', textTransform: 'uppercase', letterSpacing: '-2px' }}>Diagnostic Protocol</h2>
+            <p style={{ color: '#666', marginTop: '20px' }}>Join the elite. Alex reviews all diagnostic requests to ensure a fit with the Lab's high-performance methodology.</p>
           </div>
-
           <form style={{ backgroundColor: 'rgba(255,255,255,0.02)', padding: '40px', border: '1px solid rgba(255,255,255,0.05)' }}>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px' }}>
-              <FormInput label="Full Name" placeholder="John Doe" />
-              <FormInput label="Email Address" placeholder="john@example.com" type="email" />
+              <FormInput label="Full Name" placeholder="Required" />
+              <FormInput label="Email Address" placeholder="Required" type="email" />
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '20px' }}>
-              <FormInput label="Current Handicap" placeholder="e.g. 12" />
-              <FormInput label="Primary Goal" placeholder="e.g. Speed, Pain Relief" />
-            </div>
-            <div style={{ marginBottom: '40px' }}>
-              <label style={{ display: 'block', fontSize: '10px', color: accent, textTransform: 'uppercase', letterSpacing: '2px', marginBottom: '8px' }}>History of Injury</label>
-              <textarea style={{ width: '100%', height: '120px', backgroundColor: 'transparent', border: '1px solid rgba(255,255,255,0.1)', padding: '16px', color: 'white', borderRadius: '2px', outline: 'none' }} placeholder="Describe any surgeries or chronic pain..." />
+              <FormInput label="Current Handicap" placeholder="e.g. 4" />
+              <FormInput label="Primary Goal" placeholder="Speed / Corrective / Prep" />
             </div>
             <button type="button" style={{ width: '100%', backgroundColor: accent, color: 'black', border: 'none', padding: '20px', fontSize: '12px', fontWeight: 'bold', textTransform: 'uppercase', letterSpacing: '4px', cursor: 'pointer' }}>
-              Submit Intake For Review
+              Initialize Intake
             </button>
           </form>
         </main>
       )}
 
       <footer style={{ padding: '80px 24px', borderTop: '1px solid rgba(255,255,255,0.05)', textAlign: 'center' }}>
-           <p style={{ fontSize: '10px', color: '#444', textTransform: 'uppercase', letterSpacing: '4px', marginBottom: '16px' }}>Valor Performance Lab / South Florida</p>
-           <p style={{ fontSize: '10px', color: accent, textTransform: 'uppercase', letterSpacing: '2px', fontWeight: 'bold' }}>Move Better. Play Harder. Play Longer.</p>
+           <p style={{ fontSize: '10px', color: '#444', textTransform: 'uppercase', letterSpacing: '4px', marginBottom: '16px' }}>Crull Fitness / Richardson, TX</p>
+           <p style={{ fontSize: '10px', color: accent, textTransform: 'uppercase', letterSpacing: '2px', fontWeight: 'bold' }}>Valor Performance Lab © 2026</p>
       </footer>
     </div>
   );
